@@ -39,11 +39,12 @@
 .conteudoPrincipal-cursos {
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 20px;
 	
 }
 
 .conteudoPrincipal-cursos-link {
-	width: 23%;
+	width: 22.2%;
 	margin: 1%;
 }
 
@@ -99,6 +100,15 @@
 	.conteudoPrincipal-cursos-link {
 		width: 100%;
 	}
+
+	.conteudoPrincipal-cursos-link:nth-child(4n) {
+		margin-right: auto;
+}
+
+	.conteudoPrincipal-cursos-link:nth-child(4n+1) {
+		margin-left: auto;
+}
+
 	.rodapePrincipal-navMap-list {
 		height: auto;
 	}

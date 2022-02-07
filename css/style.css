@@ -9,8 +9,9 @@ body {
 }
 
 .cabecalhoPrincipal {
-	background-color: #FFF;
+	background-color: white;
 	padding: 20px 0;
+	border-bottom: dashed;
 }
 
 .cabecalhoPrincipal-titulo {
@@ -37,8 +38,9 @@ body {
 }
 
 .conteudoPrincipal {
-	margin-top: 20px; 
+	padding-top: 20px;
 	margin-bottom: 20px;
+	background-color: lavender;
 }
 
 .subtitulo {
